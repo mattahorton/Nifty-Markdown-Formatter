@@ -21,6 +21,7 @@ public struct FormattedMarkdown: View {
                 formattedStrings[textView]
             }
         }
+        .frame(maxWidth: geo.size.width, alignment: .leading)
     }
 }
 
